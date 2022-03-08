@@ -17,12 +17,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U TGDbot')
+os.system('pip install -U nlabot')
 os.system('clear')
 
-import TGDbot
+import nlabot
 
-client = TGDbot.PartyBot(
+client = nlabot.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
