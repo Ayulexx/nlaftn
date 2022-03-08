@@ -17,12 +17,12 @@ else:
   print("error device in the file")
   sys.exit()
 
-os.system('pip install -U nlabot')
+os.system('pip install -U nlaftn')
 os.system('clear')
 
-import nlabot
+import nlaftn
 
-client = nlabot.PartyBot(
+client = nlaftn.PartyBot(
   device_id=env_vars['DEVICE_ID'],
   account_id=env_vars['ACCOUNT_ID'],
   secret=env_vars['SECRET']
